@@ -1,5 +1,5 @@
 
-def withDraw( money, request):
+def withdraw( money, request):
     paperValues= [ 100, 50, 10, 5, 1]
     assert request>0, "Invalid input"
     assert request<=money, "Balance Not Enough !"
@@ -16,4 +16,4 @@ def withDraw( money, request):
 
 #test any value here
 balance= 1000
-balance= withDraw(balance,250)
+balance= withdraw(balance,250)
