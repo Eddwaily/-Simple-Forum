@@ -4,6 +4,7 @@ def withDraw(money,request):
     assert request>0, "Invalid input"
     assert request<=money, "Balance Not Enough !"
     remaining=money-request
+    
     print "*************"
     print "Delivering "+str(request)+"$ to client:"
     for x in paperValues:
