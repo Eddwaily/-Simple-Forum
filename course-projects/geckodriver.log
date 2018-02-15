@@ -1,0 +1,23 @@
+1518653961218	geckodriver	INFO	geckodriver 0.19.1
+1518653961239	geckodriver	INFO	Listening on 127.0.0.1:50973
+1518653964416	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Pacman\\AppData\\Local\\Temp\\rust_mozprofile.KatCwd8Ggncm"
+Unable to read VR Path Registry from C:\Users\Pacman\AppData\Local\openvr\openvrpaths.vrpath
+1518653967266	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Pacman\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Pacman\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Pacman\AppData\Local\openvr\openvrpaths.vrpath
+1518653971925	Marionette	INFO	Listening on port 50981
+1518653971987	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Pacman\AppData\Local\openvr\openvrpaths.vrpath
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+1518654323337	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/c_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15696, Chrome_ChildThread] WAR[Child 8452, Chrome_mium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 32, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 2680, Chrome_Ch1518653913377	geckodriver::marionette	ERROR	Failed to kill browser process
+518653816012	geckodriver::marionette	ERROR	Failed to kill browser process
