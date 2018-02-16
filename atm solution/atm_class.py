@@ -1,17 +1,15 @@
-def line():
-    print "="*30
-    
 class ATM:
     def __init__(self, balance, bank_name):
         self.balance = balance
         self.bank_name = bank_name
 
-
+    def _line(self):
+        print "="*30
 
     def withdraw(self,request):
         paperValues = [ 100, 50, 10, 5, 1]
 
-        line()
+        self._line()
         print "Welcome to " + self.bank_name +" !"
         print "Current Balance: "+ str(self.balance)
 
@@ -27,7 +25,7 @@ class ATM:
                     request -= x
             self.balance -= request
             print "Remaining balance " + str( self.balance )
-            line()
+        self._line()
         return self.balance
 
 #making objects of type ATM
