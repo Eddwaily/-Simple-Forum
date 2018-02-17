@@ -1,6 +1,5 @@
 class member:
     member_count = 0
-
     def __init__( self, name, age):
         self.name = name
         self.age = age
@@ -8,9 +7,8 @@ class member:
 
 
 class post:
-    post_count = 0
-
+    posts_count = 0
     def __init__( self, title, content):
         self.title = title
         self.content = content
-        post.post_count += 1
+        post.posts_count += 1
