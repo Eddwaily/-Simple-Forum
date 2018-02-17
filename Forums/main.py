@@ -6,5 +6,5 @@ m3 = member( "Rami Ayash", 27 )
 p1 = post("Python", "this is a programming language" )
 p2 = post("the legend of Tarazan", "it's a story about a man who lived with gorillas !" )
 #testing
-print p1.title
-print m1.name
+print p1
+print m1
