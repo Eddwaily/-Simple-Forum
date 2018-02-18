@@ -1,6 +1,5 @@
 import turtle
 def draw_Square( side_length ):
-    window.bgcolor("dark blue")
     brad = turtle.Turtle()
     brad.shape("turtle")
     brad.color("orange")
