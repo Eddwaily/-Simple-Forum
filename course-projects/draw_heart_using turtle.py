@@ -10,7 +10,7 @@ def draw_Square():
     brad = turtle.Turtle()
     brad.shape("turtle")
     brad.speed(0) #speed is zero which mean the maximum speed
-    brad.color("blue")
+    brad.color("dark blue")
 
     t = 0
     while t <= 500 :
