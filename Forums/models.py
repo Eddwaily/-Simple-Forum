@@ -9,6 +9,7 @@ class member:
         print "Name: " + str(self.name)
         print "Age: " + str(self.age)
         print "="*10
+
 class post:
     posts_count = 0
     def __init__( self, title, content):

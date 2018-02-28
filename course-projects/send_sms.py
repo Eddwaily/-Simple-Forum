@@ -11,6 +11,6 @@ client = Client(account_sid, auth_token)
 message = client.messages.create(
     to="+218924346256",#the number to send a message to
     from_="+18435475071",# that's my phone number provided by tw
-    body= "من يوم ياللي قالو غنوك، وجا كيدنا عالسباسي")
+    body="دزلي جنيه ولا تصغر راهي متنيكة ...... محمود")
 
 print(message.sid)
