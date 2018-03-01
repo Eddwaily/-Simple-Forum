@@ -5,11 +5,11 @@ class member:
         self.age = age
         member.member_count += 1
     def __str__(self):
-        str = "="*3 + "Member - Profile" + "="*3 + "\n"
-        str += "Name: " + str(self.name) + "\n"
-        str += "Age: " + str(self.age) + "\n"
-        str += "="*10
-		return str
+        mystr = "="*3 + "Member - Profile" + "="*3 + "\n"
+        mystr += "Name: " + str(self.name) + "\n"
+        mystr += "Age: " + str(self.age) + "\n"
+        mystr += "="*10
+        return mystr
 
 class post:
     posts_count = 0
@@ -18,8 +18,8 @@ class post:
         self.content = content
         post.posts_count += 1
     def __str__(self):
-        str = "="*10
-        str += "*"*4 + self.title + "*"*4
-        str += self.content
-        str += "="*10
-		return str
+        mystr = "="*10
+        mystr += "*"*4 + self.title + "*"*4
+        mystr += self.content
+        mystr += "="*10
+        return mystr
