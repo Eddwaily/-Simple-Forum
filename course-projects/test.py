@@ -1,6 +1,7 @@
-x = True
-y = True
-z = False
-
-if  not x or y:
-    print(1)
+x = 13
+print "these results are divisible by 7 :"
+for i in range(1,51,1) :
+    result = x * i
+    print i
+    if result % 7 == 0 :
+        print "-" + str(result)
