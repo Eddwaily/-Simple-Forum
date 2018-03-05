@@ -1,7 +1,15 @@
-x = 13
-print "these results are divisible by 7 :"
-for i in range(1,51,1) :
-    result = x * i
-    
-    if result % 7 == 0 :
-        print "-" + str(result)
+def myfunc():
+    number = 1
+    mylist = (1,21,1)
+    while(1):
+        counter = 0
+        for i in mylist:
+            if number % i:
+                pass
+            else:
+                counter += 1
+        if counter ==20:
+            return number
+        else:
+            number += 1
+print myfunc()
